@@ -9,14 +9,17 @@ from temporitzador_reg import temporitzador_reg
 from temporitzador import temporitzador
 
 def reset(poble, humitat_optima, cultiu):
-    poblacio, pais, temp, humitat, presio, data, pluja, condicions = get_status(poble)
+    try:
+        poblacio, pais, temp, humitat, presio, data, pluja, condicions = get_status(poble)
 
-    informador(poblacio, pais, temp, humitat, presio, data, pluja, condicions,humitat_optima,cultiu)
+        informador(poblacio, pais, temp, humitat, presio, data, pluja, condicions,humitat_optima,cultiu)
 
-    estat_reg, temps_reg, temps_pausa = reg(pluja, humitat, humitat_optima)
+        estat_reg, temps_reg, temps_pausa = reg(pluja, humitat, humitat_optima)
 
-    temporitzador_reg(estat_reg, temps_reg)
+        temporitzador_reg(estat_reg, temps_reg)
 
-    temporitzador(temps_pausa)
+        temporitzador(temps_pausa)
 
-    reset(poble, humitat_optima, cultiu)
+        reset(poble, humitat_optima, cultiu)
+    except Exception as e:
+        print(f"Hi ha hagut un error amb amb la funció reset >>>>> {e}")

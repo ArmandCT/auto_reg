@@ -4,4 +4,4 @@ def informador(poblacio, pais, temperatura, humitat, presio, data, pluja, condic
     try:
         print(f"{poblacio} ({pais}) a data i hora {data}: \n Condicions ambientals: {condicions} \n Temperatura: {temperatura} ºC \n Humitat relativa: {humitat} % \n Pressió atmosfèrica: {presio} mbars \n Precipitació: {pluja} mm \n L'humitat òptima del {cultiu} és del {humitat_optima} %")
     except Exception as e:
-        print(f"Hi ha hagut un error amb l'informador >>>>> {e}")
+        print(f"Hi ha hagut un error amb la funció informador >>>>> {e}")

@@ -18,4 +18,4 @@ def get_status(poble):
 
         return poblacio, pais, temperatura, humitat, presio, data, pluja, condicions
     except Exception as e:
-        print(f"Hi ha hagut un error comprobant la meteorologia >>>>> {e}")
+        print(f"Hi ha hagut un error amb la funció get_status >>>>> {e}")

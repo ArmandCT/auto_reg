@@ -14,4 +14,4 @@ def reg(pluja, humitat, humitat_optima):
             temps_reg = 3600*2
             return estat_reg, temps_reg, temps_pausa
     except Exception as e:   
-        print(f"Hi ha hagut un error amb l'activador de reg >>>>> {e}")
+        print(f"Hi ha hagut un error amb la funció activador_reg >>>>> {e}")

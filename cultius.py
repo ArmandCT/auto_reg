@@ -13,4 +13,4 @@ def cultius(cult_data):
             else:
                 print("No tenim dades d'aquest cultiu")
     except Exception as e:
-        print(f"Hi ha hagut un error intentant seleccionar el cultiu >>>>> {e}")
+        print(f"Hi ha hagut un error amb la funció cultius >>>>> {e}")

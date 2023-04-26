@@ -13,4 +13,4 @@ def temporitzador_reg(estat_reg, temps_reg):
             estat_reg == False
             print("\n Reg desactivat \n")
     except Exception as e:   
-        print(f"Hi ha hagut un error amb el temporitzador del reg >>>>> {e}")
+        print(f"Hi ha hagut un error amb amb la funció temporitzador_reg >>>>> {e}")

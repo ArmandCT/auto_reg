@@ -15,4 +15,4 @@ def cultius_data():
                 cult_data.update({cultiu_nou: humitat_nou})
                 return cult_data
     except Exception as e:
-        print(f"Hi ha hagut un error comprovant la base de dades de cultius >>>>> {e}")
+        print(f"Hi ha hagut un error amb la funció cultius_data >>>>> {e}")

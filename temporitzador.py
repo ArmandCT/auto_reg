@@ -6,4 +6,4 @@ def temporitzador(temps_pausa):
     try:
         sleep(temps_pausa)
     except Exception as e:
-        print(f"Hi ha hagut un error amb el temporitzador >>>>> {e}") 
+        print(f"Hi ha hagut un error amb la funció temporitzador >>>>> {e}") 
