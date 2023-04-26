@@ -14,7 +14,7 @@ En funció de si s'encèn o no el reg el programa queda en pausa esperant per fe
 
 # Usage
 
-1) El programa demanarà les coordenades decimals d'on es troba el cultiu. Copiar directament les obtingudes a Google Maps (p. ex. 42.197069, 2.191079).
+1) El programa demanarà les coordenades decimals d'on es troba el cultiu. Copiar directament les obtingudes a Google Maps (p. ex. "42.197069, 2.191079").
 2) Retornarà un llistat amb els cultius dels quals es tenen dades d'humitat òptima.
 3) Demanarà si es vol afegir un cultiu nou (en cas afirmatiu introduir "S", en cas negatiu introduir "N").
     3.1) Si s'ha introduit "S" demanarà que s'introdueixi el nom del cultiu. Preferiblement s'ha d'aportar únicament el nom en minúscula i singular (p. ex. "pebrot").

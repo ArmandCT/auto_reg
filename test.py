@@ -1,4 +1,4 @@
-# EXPLICACIÓ
+# Programa de reg automàtic a partir de dades de població i tipus de cultiu
 
 from temps_status import get_status
 from cultius_data import cultius_data
