@@ -4,8 +4,8 @@ El programa automatitza el funcionament d'un sistema de reg en funció del culti
 
 # Features
 
-Consulta regular de les condicions meteorològiques de lloc de cultiu per obtenir dades de temperatura, humitat, pressió, pluja i condicions generals.
-Consulta de les condicions d'humitat òptima del cultiu a partir d'una base de dades.
+Consulta regular de les condicions meteorològiques de lloc de cultiu per obtenir dades de temperatura, humitat, pressió, pluja i condicions generals.Consulta de les condicions d'humitat òptima del cultiu a partir d'una base de dades.
+
 Possibilitat d'introduir noves dades de cultius amb l'humitat òptima corresponent.
 Retorna tota aquesta informació consultada anteriorment de manera ordenada.
 Comparant la pluviometria amb les dades d'humitat relativa i humitat òptima del cultiu encèn o no el reg.
